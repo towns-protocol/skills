@@ -1,0 +1,9 @@
+{
+  "name": "towns",
+  "description": "Comprehensive skill for creating Towns Protocol bots with @towns-protocol/bot SDK",
+  "version": "1.0.0",
+  "author": {
+    "name": "Andriy"
+  },
+  "keywords": ["towns", "bot", "sdk", "blockchain", "messaging"]
+}
