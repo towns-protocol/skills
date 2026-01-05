@@ -4,13 +4,32 @@ A Claude Code plugin providing comprehensive knowledge for building Towns Protoc
 
 ## Installation
 
+### For HereNotThere team members
+
+Add to your `~/.claude/settings.json`:
+
+```json
+{
+  "plugins": {
+    "marketplaces": ["github:HereNotThere/towns-skill-marketplace"]
+  }
+}
+```
+
+Then install:
 ```bash
-/plugin install /Users/andriy/Projects/HNT/bots/towns-bot-skill
+/plugin install towns
+```
+
+### Direct installation
+
+```bash
+claude --plugin-dir /path/to/towns-skill
 ```
 
 ## Usage
 
-The skill automatically triggers when you ask Claude Code to help with Towns bot development. Examples:
+Invoke the skill with `/towns:bots` or let it trigger automatically when working on Towns bot development:
 
 - "Create a Towns bot with slash commands"
 - "Add message handling to my Towns bot"
@@ -21,11 +40,11 @@ The skill automatically triggers when you ask Claude Code to help with Towns bot
 
 - SDK initialization and configuration
 - Event handlers (messages, commands, reactions, tips)
-- Messaging API (mentions, threads, attachments)
+- Messaging API (mentions, threads, attachments, formatting)
 - Interactive components (forms, buttons, transactions)
-- Blockchain operations (read/write contracts)
-- Deployment guides (local, Render.com)
-- Common mistakes and troubleshooting
+- Blockchain operations (read/write contracts, transaction verification)
+- Deployment guides (local dev, Render.com, graceful shutdown)
+- Debugging patterns and common mistakes
 
 ## Resources
 
