@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "towns",
-      "source": ".",
+      "source": "./",
       "description": "Comprehensive skill for creating Towns Protocol bots with @towns-protocol/bot SDK"
     }
   ]
