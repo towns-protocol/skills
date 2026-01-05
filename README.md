@@ -4,27 +4,20 @@ A Claude Code plugin providing comprehensive knowledge for building Towns Protoc
 
 ## Installation
 
-### For HereNotThere team members
-
 Add to your `~/.claude/settings.json`:
 
 ```json
 {
   "plugins": {
-    "marketplaces": ["github:HereNotThere/towns-skill-marketplace"]
+    "marketplaces": ["github:HereNotThere/towns-skill"]
   }
 }
 ```
 
-Then install:
+Then restart Claude Code and install:
+
 ```bash
 /plugin install towns
-```
-
-### Direct installation
-
-```bash
-claude --plugin-dir /path/to/towns-skill
 ```
 
 ## Usage
