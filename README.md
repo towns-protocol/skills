@@ -4,7 +4,16 @@ A Claude Code plugin providing comprehensive knowledge for building Towns Protoc
 
 ## Installation
 
-Add to your `~/.claude/settings.json`:
+### Option 1: Via CLI menu
+
+1. Run `/plugin` in Claude Code
+2. Select **Marketplaces** → **Add Marketplace**
+3. Enter: `github:HereNotThere/towns-skill`
+4. Run `/plugin install towns`
+
+### Option 2: Edit settings directly
+
+Add to `~/.claude/settings.json`:
 
 ```json
 {
@@ -14,11 +23,7 @@ Add to your `~/.claude/settings.json`:
 }
 ```
 
-Then restart Claude Code and install:
-
-```bash
-/plugin install towns
-```
+Then restart Claude Code and run `/plugin install towns`
 
 ## Usage
 
