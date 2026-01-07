@@ -10,7 +10,7 @@ An [Agent Skill](https://agentskills.io) providing comprehensive knowledge for b
 
 1. Run `/plugin` in Claude Code
 2. Select **Marketplaces** → **Add Marketplace**
-3. Enter: `github:HereNotThere/towns-skill`
+3. Enter: `github:towns-protocol/skills`
 4. Run `/plugin install towns`
 
 **Option 2: Edit settings directly**
@@ -20,7 +20,7 @@ Add to `~/.claude/settings.json`:
 ```json
 {
   "plugins": {
-    "marketplaces": ["github:HereNotThere/towns-skill"]
+    "marketplaces": ["github:towns-protocol/skills"]
   }
 }
 ```
@@ -32,13 +32,13 @@ Then restart Claude Code and run `/plugin install towns`
 **Option 1: Clone to skills directory**
 
 ```bash
-git clone git@github.com:HereNotThere/towns-skill.git ~/.codex/skills/towns
+git clone git@github.com:towns-protocol/skills.git ~/.codex/skills/towns
 ```
 
 **Option 2: Add to project**
 
 ```bash
-git clone git@github.com:HereNotThere/towns-skill.git .codex/skills/towns
+git clone git@github.com:towns-protocol/skills.git .codex/skills/towns
 ```
 
 The skill will be available as `$bots` in Codex.
